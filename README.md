@@ -42,13 +42,16 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     1. Baseline - Persistence Model
     2. Facebook Prophet 
     3. ARIMA
-    4. LSTM 
+    4. LSTM (For final presentation)
 
 5. Choice of Preferred Predictor Explained -   
 
 ### Key Findings about the VIX ###
-
-
+1. Mean ~ 17 with Standard Deviation - ~7
+2. Highest recorded value - ~82 (March 2020 - peak of market meltdown in response to Covid19 lockdown)
+3. End of Q1 & Q2 seen most volatility - End of a critical Q2 is upon us!!!
+4. Elections (We have a big one coming up) result in a spike in volatility 
+5. Relative rate of change in volatility needs to factored in building models that use short term change in VIX to predict 
 
 
 
@@ -68,9 +71,9 @@ To conclude:
 – C.F. Kettering
 
 ### Links to Presentation & Academic Literature 
-Presentation - 
+Presentation - https://docs.google.com/presentation/d/1ZFODWgJR_lD_ECELpOK0WLRsaTyFbnwPVT3cFBHadls/edit?usp=sharing
 
-Academic Papers Reviewed 
+Articles Reviewed  
 1. General Overview 
 - https://www.spglobal.com/spdji/en/education-a-practitioners-guide-to-reading-vix.pdf
 - https://www.investopedia.com/ask/answers/010915/volatility-good-thing-or-bad-thing-investors-point-view-and-why.asp
@@ -81,9 +84,10 @@ Academic Papers Reviewed
 
 ### Sources for Code ###
 
-Learn Lessons on Time Series Forecasting 
+Learn Lessons on Time Series Forecasting & Modeling  
 Baseline - Persistence Model - https://machinelearningmastery.com/persistence-time-series-forecasting-with-python/
-Reuse of some previous project code - Mod4 Project - Self and Corey Hanson
+Reuse of very limited snippits of code from Mod4 Project done by myself and Corey Hanson
+GridSearch - Arima Hyperparamter tuning - https://machinelearningmastery.com/grid-search-arima-hyperparameters-with-python/
 
 
 
