@@ -44,8 +44,7 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     3. ARIMA - 2.94
     4. LSTM (for final presentation)
 
-5. Choice of Preferred Predictor Explained - the best performing model is the baseline - Persistence Model with a RMSE of 3.34 - I'm hoping the LSTM can outperform the baseline model  
-
+5. Choice of Preferred Predictor Explained - the best performing model is the hypertuned ARIMA with a RMSE of 2.94 - I'm hoping the LSTM can outperform this model
 ### Key Findings about the VIX ###
 1. Mean ~ 17 with Standard Deviation - ~7
 2. Highest recorded value - ~82 (March 2020 - peak of market meltdown in response to Covid19 lockdown)
