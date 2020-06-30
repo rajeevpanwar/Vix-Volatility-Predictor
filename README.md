@@ -36,7 +36,7 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
 
 2. Data Pre-processing - Use of datetimestamp and index
 
-3. Exploratory Data Analysis - Used to identify suitable 'transformations' of data for modeling purposes 
+3. Exploratory Data Analysis 
 
 4. Model Development and Evalution Criteria (RMSE)
     1. Baseline - Persistence Model
@@ -44,7 +44,7 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     3. ARIMA
     4. LSTM (for final presentation)
 
-5. Choice of Preferred Predictor Explained - the best performing model is the baseline - Persistence Model with a RMSE of 3.34 - hard to explain but I'm hoping the LSTM can outperform the baseline model  
+5. Choice of Preferred Predictor Explained - the best performing model is the baseline - Persistence Model with a RMSE of 3.34 - I'm hoping the LSTM can outperform the baseline model  
 
 ### Key Findings about the VIX ###
 1. Mean ~ 17 with Standard Deviation - ~7
