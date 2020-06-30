@@ -39,9 +39,9 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
 3. Exploratory Data Analysis 
 
 4. Model Development and Evalution Criteria (RMSE)
-    1. Baseline - Persistence Model
-    2. Facebook Prophet 
-    3. ARIMA
+    1. Baseline - Persistence Model - 3.34
+    2. Facebook Prophet - 5.78
+    3. ARIMA - 2.94
     4. LSTM (for final presentation)
 
 5. Choice of Preferred Predictor Explained - the best performing model is the baseline - Persistence Model with a RMSE of 3.34 - I'm hoping the LSTM can outperform the baseline model  
