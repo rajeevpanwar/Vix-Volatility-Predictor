@@ -13,7 +13,7 @@ Clearly there is a use case for a volatility predictor which can used to improve
 
 While it is widely acknowledged that predicting asset prices is a perilous profession, I believe there maybe a workaround in trying to predict broader market volatility and explore if such insight can augment trading strategies in such times
 
-### Associated Sub-theme ###
+### Associated Sub-theme (For Stretch Goal) ###
 
 I also wanted to explore if investors experienced different levels of volatility under two Presidents and extract insights for a major upcoming event that will be 'cataclysmic' from a volatility standpoint - the 2020 Presidential Election - irrespective of who wins!
 
@@ -42,18 +42,16 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     1. Baseline - Persistence Model
     2. Facebook Prophet 
     3. ARIMA
-    4. LSTM (For final presentation)
+    4. LSTM (for final presentation)
 
-5. Choice of Preferred Predictor Explained -   
+5. Choice of Preferred Predictor Explained - the best performing model is the baseline - Persistence Model with a RMSE of 3.34 - hard to explain but I'm hoping the LSTM can outperform the baseline model  
 
 ### Key Findings about the VIX ###
 1. Mean ~ 17 with Standard Deviation - ~7
 2. Highest recorded value - ~82 (March 2020 - peak of market meltdown in response to Covid19 lockdown)
 3. End of Q1 & Q2 seen most volatility - End of a critical Q2 is upon us!!!
 4. Elections (We have a big one coming up) result in a spike in volatility 
-5. Relative rate of change in volatility needs to factored in building models that use short term change in VIX to predict 
-
-
+5. Relative rate of change in volatility needs to factored in building models that use short term change in VIX to predict  
 
 ### Future Steps ###
 
@@ -82,12 +80,13 @@ Articles Reviewed
 2. Weakness - https://www.barrons.com/articles/the-pros-and-cons-of-vix-the-markets-fear-gauge-1505942074
 
 
-### Sources for Code ###
+### Sources for Code, Images etc ###
 
 Learn Lessons on Time Series Forecasting & Modeling  
 Baseline - Persistence Model - https://machinelearningmastery.com/persistence-time-series-forecasting-with-python/
-Reuse of very limited snippits of code from Mod4 Project done by myself and Corey Hanson
 GridSearch - Arima Hyperparamter tuning - https://machinelearningmastery.com/grid-search-arima-hyperparameters-with-python/
-
-
+TimeSeries Forecasting 
+https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
+Cross-Validation of ARIMA - https://alkaline-ml.com/pmdarima/auto_examples/model_selection/example_cross_validation.html
+Images for deck - Google Images Search 
 
