@@ -89,3 +89,6 @@ https://www.machinelearningplus.com/time-series/arima-model-time-series-forecast
 Cross-Validation of ARIMA - https://alkaline-ml.com/pmdarima/auto_examples/model_selection/example_cross_validation.html
 Images for deck - Google Images Search 
 
+Cohort 02/18/20 - 'Zen' Hanson, 'Chiller' Stearns, 'Big-Man' Mosley & 'The Wall' Favell (And all of Big-Day AI)
+COhort 03/30/20 - Everyone for an amazing MVP that inspired me - Special callout to 'Surfer' Jude!
+
