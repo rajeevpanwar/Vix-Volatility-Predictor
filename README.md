@@ -39,13 +39,12 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
 3. Exploratory Data Analysis 
 
 4. Model Development and Evalution Criteria (RMSE)
-    1. Baseline - Persistence Model
-    2. Facebook Prophet 
-    3. ARIMA
+    1. Baseline - Persistence Model - 3.34
+    2. Facebook Prophet - 5.78
+    3. ARIMA - 2.94
     4. LSTM (for final presentation)
 
-5. Choice of Preferred Predictor Explained - the best performing model is the baseline - Persistence Model with a RMSE of 3.34 - I'm hoping the LSTM can outperform the baseline model  
-
+5. Choice of Preferred Predictor Explained - the best performing model is the hypertuned ARIMA with a RMSE of 2.94 - I'm hoping the LSTM can outperform this model
 ### Key Findings about the VIX ###
 1. Mean ~ 17 with Standard Deviation - ~7
 2. Highest recorded value - ~82 (March 2020 - peak of market meltdown in response to Covid19 lockdown)
@@ -89,4 +88,6 @@ TimeSeries Forecasting
 https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
 Cross-Validation of ARIMA - https://alkaline-ml.com/pmdarima/auto_examples/model_selection/example_cross_validation.html
 Images for deck - Google Images Search 
+
+Cohort 02/18/20 - Learnings from 'Zen' Hanson, 'Chiller' Stearns and 'Big-Man' Mosley
 
