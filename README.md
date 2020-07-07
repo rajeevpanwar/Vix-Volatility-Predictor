@@ -2,7 +2,6 @@
 
 ![](https://www.istockphoto.com/photo/economic-pandemic-gm1209816547-350222419?utm_campaign=srp_photos_noresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fvolatility%2F&utm_medium=affiliate&utm_source=pexels&utm_term=volatility)
 
-
 ### Business Case ###
 
 ![](https://www.istockphoto.com/photo/economic-pandemic-gm1209816547-350222419?utm_campaign=srp_photos_noresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fvolatility%2F&utm_medium=affiliate&utm_source=pexels&utm_term=volatility)
