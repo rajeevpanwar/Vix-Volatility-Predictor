@@ -13,6 +13,9 @@ Clearly there is a use case for a volatility predictor which can used to improve
 
 While it is widely acknowledged that predicting asset prices is a perilous profession, I believe there maybe a workaround in trying to predict broader market volatility and explore if such insight can augment trading strategies in such times
 
+![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/histogram_index_values.png)
+
+
 ### Associated Sub-theme (For Stretch Goal) ###
 
 I also wanted to explore if investors experienced different levels of volatility under two Presidents and extract insights for a major upcoming event that will be 'cataclysmic' from a volatility standpoint - the 2020 Presidential Election - irrespective of who wins!
