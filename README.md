@@ -1,16 +1,24 @@
-# Volatility Index Enabled Trading Alert System #
+# Vix Volitality Predictor #
+
+![](http://localhost:8890/view/Images/Volatility_cp.jpg)
 
 ### Business Case ###
+
+![](http://localhost:8890/view/Images/coronavirus-news-on-screen-3970332.jpg)
+
 The world is living through its 2nd pandemic of 21st Century (first being 2009 H1N1 influenza pandemic). In midst of all this doom and stock market gyrations, one category of investors has stood tall and more often than not only beaten established mutual funds and hedge funds. More and more news headlines attest to this fact as we enter the 2nd half of 2020
+
+![](http://localhost:8890/view/Images/Screen%20Shot%202020-06-23%20at%209.59.55%20AM.png)
 
 As the current crises continues to increase volatility due conflicting progress against COVID-19 and a monumental Presidential election around the corner, its imperitive that small mom/pop trader better understand volatility and utilize cutting edge data science techniques to forecast expected volatility and incorporate these insights regarding volatility into stock-trading behavior
 
 For most mom/pop investors focusing on investing in cyclicals like Technology stocks, valuations are increasing a function of sentiment and subject to 'substiantial' change when other sectors of the economy recover 
 
+![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/nemo.jpeg)
+
 We have all heard the maxim - 'buy when other sell and sell when others buy'. One literal intrepration of this maxim would be to buy when others are fearful and panicking and sell when others are overly europhic and start buying
 
 Clearly there is a use case for a volatility predictor which can used to improve 'entry' and 'exit' strategies  
-
 While it is widely acknowledged that predicting asset prices is a perilous profession, I believe there maybe a workaround in trying to predict broader market volatility and explore if such insight can augment trading strategies in such times
 
 ### Associated Sub-theme (For Stretch Goal) ###
@@ -22,11 +30,25 @@ I also wanted to explore if investors experienced different levels of volatility
 
 While looking for data to best understand volatility for trading, I choose the CBOE Volatility Index (VIX) - VIX is widely acknowledged as the foremost indicator of implied market volatility for over 25 years
 
+![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/vix_index.png)
+
 So what is the VIX? Its a real-time market index that represents the market's expectation of 30-day forward-looking volatility. VIX estimates how volatile the market will be by aggregating the weighted prices of S&P 500 puts and calls over a wide range of strike prices. More specifically, the VIX is calculated by looking at the midpoints of real-time S&P 500 option bid and ask prices
 
 Why VIX - Unlike indiviual stocks in S&P500 (and associated option chains) which may be undergoing some structural realingment (GE & BOEING are classic examples), VIX is 'diversified' and 'balanced' number that most accurately estimates investor sentiment going into the future. Since VIX is derived from future price expectations for every stock on the S&P500, it accurately captures the hedging strategies of large institutional players - which in turn impacts current and future stock prices
 
+![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/tsd_vix_index.png)
+
 Key Charateristic of Index - 'Long Term Mean Reversion' - Simply put folks dont stay fearful for too long nor do they remain euphoric all the time to whatever happens (Clearly investors could also benefit from learning Zazen and other zen meditation techniques but I'll save that for a later blog about how to maintain equanimity during 'high-volatility' trading sessions)
+
+![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/histogram_index_values.png)
+
+
+
+![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/box_plot_vix_index_values.png)
+
+
+![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/monthly_variation_vix_index.png)
+
 
 Another important 'lesser' charateristic is that VIX has a strong negative correlation to the S&P 500, tending to rise when the stock market dives, and vice versa, and as such futures based on the VIX, traded at the CBOE (retail buyers hardly use CBOE since its been designed for large institutional investors), can be an effective vehicle for hedging stock market positions 
 
@@ -40,11 +62,33 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
 
 4. Model Development and Evalution Criteria (RMSE)
     1. Baseline - Persistence Model - 3.34
+    
     2. Facebook Prophet - 5.78
+    
+    
+    ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_vix_changepoints.png)
+    
+    
+    
+    ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_vix_components.png)
+    
+    
+    
+    
+    ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_forecast_rmse.png)
+    
+    
     3. ARIMA - 2.94
-    4. LSTM (for final presentation)
+    
+    
+    
+    
+    4. LSTM - 
+    
 
-5. Choice of Preferred Predictor Explained - the best performing model is the hypertuned ARIMA with a RMSE of 2.94 - I'm hoping the LSTM can outperform this model
+
+Choice of Preferred Predictor Explained - the best performing model is the hypertuned ARIMA with a RMSE of 2.94 - I'm hoping the LSTM can outperform this model
+
 ### Key Findings about the VIX ###
 1. Mean ~ 17 with Standard Deviation - ~7
 2. Highest recorded value - ~82 (March 2020 - peak of market meltdown in response to Covid19 lockdown)
@@ -87,7 +131,7 @@ GridSearch - Arima Hyperparamter tuning - https://machinelearningmastery.com/gri
 TimeSeries Forecasting 
 https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
 Cross-Validation of ARIMA - https://alkaline-ml.com/pmdarima/auto_examples/model_selection/example_cross_validation.html
-Images for deck - Google Images Search 
+Images for deck - Pexels (freestock images) and Google Images
 
 Cohort 02/18/20 - Learnings from 'Zen' Hanson, 'Chiller' Stearns and 'Big-Man' Mosley
 
