@@ -1,10 +1,10 @@
 # Vix Volitality Predictor #
 
-![](https://www.istockphoto.com/photo/economic-pandemic-gm1209816547-350222419?utm_campaign=srp_photos_noresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fvolatility%2F&utm_medium=affiliate&utm_source=pexels&utm_term=volatility)
+![](http://localhost:8890/view/Images/Volatility_cp.jpg)
 
 ### Business Case ###
 
-![](https://www.istockphoto.com/photo/economic-pandemic-gm1209816547-350222419?utm_campaign=srp_photos_noresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fvolatility%2F&utm_medium=affiliate&utm_source=pexels&utm_term=volatility)
+![](http://localhost:8890/view/Images/coronavirus-news-on-screen-3970332.jpg)
 
 The world is living through its 2nd pandemic of 21st Century (first being 2009 H1N1 influenza pandemic). In midst of all this doom and stock market gyrations, one category of investors has stood tall and more often than not only beaten established mutual funds and hedge funds. More and more news headlines attest to this fact as we enter the 2nd half of 2020
 
@@ -131,7 +131,7 @@ GridSearch - Arima Hyperparamter tuning - https://machinelearningmastery.com/gri
 TimeSeries Forecasting 
 https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/
 Cross-Validation of ARIMA - https://alkaline-ml.com/pmdarima/auto_examples/model_selection/example_cross_validation.html
-Images for deck - Google Images Search 
+Images for deck - Pexels (freestock images) and Google Images
 
 Cohort 02/18/20 - Learnings from 'Zen' Hanson, 'Chiller' Stearns and 'Big-Man' Mosley
 
