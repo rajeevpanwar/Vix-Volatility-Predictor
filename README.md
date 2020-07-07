@@ -1,14 +1,15 @@
 # Vix Volitality Predictor #
 
-
-
-
-
-
+![](https://www.istockphoto.com/photo/economic-pandemic-gm1209816547-350222419?utm_campaign=srp_photos_noresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fvolatility%2F&utm_medium=affiliate&utm_source=pexels&utm_term=volatility)
 
 
 ### Business Case ###
+
+![](https://www.istockphoto.com/photo/economic-pandemic-gm1209816547-350222419?utm_campaign=srp_photos_noresults&utm_content=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fvolatility%2F&utm_medium=affiliate&utm_source=pexels&utm_term=volatility)
+
 The world is living through its 2nd pandemic of 21st Century (first being 2009 H1N1 influenza pandemic). In midst of all this doom and stock market gyrations, one category of investors has stood tall and more often than not only beaten established mutual funds and hedge funds. More and more news headlines attest to this fact as we enter the 2nd half of 2020
+
+![](http://localhost:8890/view/Images/Screen%20Shot%202020-06-23%20at%209.59.55%20AM.png)
 
 As the current crises continues to increase volatility due conflicting progress against COVID-19 and a monumental Presidential election around the corner, its imperitive that small mom/pop trader better understand volatility and utilize cutting edge data science techniques to forecast expected volatility and incorporate these insights regarding volatility into stock-trading behavior
 
@@ -19,7 +20,6 @@ For most mom/pop investors focusing on investing in cyclicals like Technology st
 We have all heard the maxim - 'buy when other sell and sell when others buy'. One literal intrepration of this maxim would be to buy when others are fearful and panicking and sell when others are overly europhic and start buying
 
 Clearly there is a use case for a volatility predictor which can used to improve 'entry' and 'exit' strategies  
-
 While it is widely acknowledged that predicting asset prices is a perilous profession, I believe there maybe a workaround in trying to predict broader market volatility and explore if such insight can augment trading strategies in such times
 
 ### Associated Sub-theme (For Stretch Goal) ###
@@ -67,11 +67,16 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     2. Facebook Prophet - 5.78
     
     
+    ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_vix_changepoints.png)
+    
+    
+    
+    ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_vix_components.png)
     
     
     
     
-    
+    ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_forecast_rmse.png)
     
     
     3. ARIMA - 2.94
