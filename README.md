@@ -1,14 +1,8 @@
 # Vix Volitality Predictor #
 
-![](http://localhost:8890/view/Images/Volatility_cp.jpg)
-
 ### Business Case ###
 
-![](http://localhost:8890/view/Images/coronavirus-news-on-screen-3970332.jpg)
-
 The world is living through its 2nd pandemic of 21st Century (first being 2009 H1N1 influenza pandemic). In midst of all this doom and stock market gyrations, one category of investors has stood tall and more often than not only beaten established mutual funds and hedge funds. More and more news headlines attest to this fact as we enter the 2nd half of 2020
-
-![](http://localhost:8890/view/Images/Screen%20Shot%202020-06-23%20at%209.59.55%20AM.png)
 
 As the current crises continues to increase volatility due conflicting progress against COVID-19 and a monumental Presidential election around the corner, its imperitive that small mom/pop trader better understand volatility and utilize cutting edge data science techniques to forecast expected volatility and incorporate these insights regarding volatility into stock-trading behavior
 
@@ -68,11 +62,11 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     
     ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_vix_changepoints.png)
     
-    
+    A quick review of the change points confirms volatility spikes around major elections, trade-crises and international incidents involving Iran and China
     
     ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_vix_components.png)
     
-    
+    A breakdown of the components shows that volatility is trending up 
     
     
     ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_forecast_rmse.png)
@@ -104,7 +98,9 @@ For a day trader/scalper/swing trader, this 16% implied annual volatility remain
 
 I aim to fine-tune the predictor and identify critical thresholds that can serve as 'triggers' for traders (subscribing to my app). Alerts would be generated when 'relative' volatility changes help identify start of high 'fear' cycles aka buying opportunities and low 'fear' cycles aka sell high and sit on cash 
 
-The END GOAL - use VIX to 'directionally' predict which way the market is going (of course in the short run) so traders can factor in VIX into decision making
+The END GOAL - develop a trading bot that weighs trading approaches by predictions of volatility. Develop 15 day rolling prediction based on an series of LSTM's that predict for narrow bands of movements in the  VIX to 'magnitudely' predict market movements and then leave it to the sensibility of an average Joe to decide whats selling around him, whats not, who's talking about stuff more on their social media feeds, what are folks worried about!!! etc.
+
+"in rolling seas are magnificients beasts of the ocean found" aka traders should factor the VIX in their decision making
 
 To conclude:
 
@@ -133,5 +129,5 @@ https://www.machinelearningplus.com/time-series/arima-model-time-series-forecast
 Cross-Validation of ARIMA - https://alkaline-ml.com/pmdarima/auto_examples/model_selection/example_cross_validation.html
 Images for deck - Pexels (freestock images) and Google Images
 
-Cohort 02/18/20 - Learnings from 'Zen' Hanson, 'Chiller' Stearns and 'Big-Man' Mosley
+Cohort 02/18/20 - Learnings from 'Zen' Hanson, 'Chiller' Stearns, 'Energiser' Andrew and 'Big-Man' Mosley
 
