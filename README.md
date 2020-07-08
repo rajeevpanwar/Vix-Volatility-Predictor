@@ -57,7 +57,7 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
 4. Model Development and Evalution Criteria (RMSE)
     1. Baseline - Persistence Model - 3.34
     
-    2. Facebook Prophet - 5.78
+    2. Facebook Prophet - 6.58
     
     
     ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_vix_changepoints.png)
@@ -72,16 +72,14 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/prop_forecast_rmse.png)
     
     
-    3. ARIMA - 2.94
+    3. ARIMA (5,0,1) - 2.94
     
+    4. ARIMA with Exogenous variable (S&P500 Daily traded stock volumes for the corresponding period) - 7.25
     
-    
-    
-    4. LSTM - 
+    5. Best performing LSTM - 2.29
     
 
-
-Choice of Preferred Predictor Explained - the best performing model is the hypertuned ARIMA with a RMSE of 2.94 - I'm hoping the LSTM can outperform this model
+Choice of Preferred Predictor Explained - the best performing model is the 2nd LSTM model built. The RMSE implies <10% error in predicted value of VIX Index corresponding to an actual VIX Index Value of 27
 
 ### Key Findings about the VIX ###
 1. Mean ~ 17 with Standard Deviation - ~7
