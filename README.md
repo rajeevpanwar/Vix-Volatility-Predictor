@@ -1,4 +1,4 @@
-# Vix Volitality Predictor #
+# Vix Volatility Predictor #
 
 ### Business Case ###
 
