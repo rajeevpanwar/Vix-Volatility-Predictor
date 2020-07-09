@@ -19,6 +19,7 @@ While it is widely acknowledged that predicting asset prices is a perilous profe
 
 I also wanted to explore if investors experienced different levels of volatility under two Presidents and extract insights for a major upcoming event that will be 'cataclysmic' from a volatility standpoint - the 2020 Presidential Election - irrespective of who wins!
 
+As the presentation slide 'famous last words' will attest - volatility has gone up under the 45th president and elections in general result in higher volatility in the markets - so buckle up come November this year
 
 ### Using Data Science to Demystify/Understand Volatility ###
 
@@ -36,13 +37,14 @@ Key Charateristic of Index - 'Long Term Mean Reversion' - Simply put folks dont 
 
 ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/histogram_index_values.png)
 
-
+As this histogram can assist in making the point about 'long term mean reversion' with significant outliers few and far between in the past decade
 
 ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/box_plot_vix_index_values.png)
 
 
 ![](https://github.com/rajeevpanwar/final_project_flatiron/blob/master/Images/monthly_variation_vix_index.png)
 
+Clearly the above visualisation points to seasonality playing a factor with end of Q1 & Q2 seeing higher levels of volatility probably as institutional investors 'bake-in' expectations for companies listed on S&P500 by the end of 1st half the year based on financial disclosures 
 
 Another important 'lesser' charateristic is that VIX has a strong negative correlation to the S&P 500, tending to rise when the stock market dives, and vice versa, and as such futures based on the VIX, traded at the CBOE (retail buyers hardly use CBOE since its been designed for large institutional investors), can be an effective vehicle for hedging stock market positions 
 
@@ -76,9 +78,8 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     
     4. ARIMA with Exogenous variable (S&P500 Daily traded stock volumes for the corresponding period) - 7.25
     
-    5. Best performing LSTM - 2.29
+    5. Best performing LSTM (Relu Activation)- 2.29
     
-
 Choice of Preferred Predictor Explained - the best performing model is the 2nd LSTM model built. The RMSE implies <10% error in predicted value of VIX Index corresponding to an actual VIX Index Value of 27
 
 ### Key Findings about the VIX ###
