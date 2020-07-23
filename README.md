@@ -1,6 +1,8 @@
 # Vix Volatility Predictor #
 
-### Business Case ###
+## Presentation [vix_volatility_predictor](https://docs.google.com/presentation/d/1ZFODWgJR_lD_ECELpOK0WLRsaTyFbnwPVT3cFBHadls/edit?usp=sharing)
+
+## Business Case ##
 
 The world is living through its 2nd pandemic of 21st Century (first being 2009 H1N1 influenza pandemic). In midst of all this doom and stock market gyrations, one category of investors has stood tall and more often than not only beaten established mutual funds and hedge funds. More and more news headlines attest to this fact as we enter the 2nd half of 2020
 
@@ -21,7 +23,7 @@ I also wanted to explore if investors experienced different levels of volatility
 
 As the presentation slide 'famous last words' will attest - volatility has gone up under the 45th president and elections in general result in higher volatility in the markets - so buckle up come November this year
 
-### Using Data Science to Demystify/Understand Volatility ###
+## Using Data Science to Demystify/Understand Volatility ##
 
 While looking for data to best understand volatility for trading, I choose the CBOE Volatility Index (VIX) - VIX is widely acknowledged as the foremost indicator of implied market volatility for over 25 years
 
@@ -48,7 +50,7 @@ Clearly the above visualisation points to seasonality playing a factor with end 
 
 Another important 'lesser' charateristic is that VIX has a strong negative correlation to the S&P 500, tending to rise when the stock market dives, and vice versa, and as such futures based on the VIX, traded at the CBOE (retail buyers hardly use CBOE since its been designed for large institutional investors), can be an effective vehicle for hedging stock market positions 
 
-### Steps to Solutioning ###
+## Steps to Solutioning ##
 
 1. Data Gathering - I webscraped 2517 observations for daily adjusted closing prices of VIX starting '2010-06-23' to '2020-06-24' to build the volatility predictor. gathered data was stored in a 'pickle'. 
 
@@ -82,14 +84,14 @@ Another important 'lesser' charateristic is that VIX has a strong negative corre
     
 Choice of Preferred Predictor Explained - the best performing model is the 2nd LSTM model built. The RMSE implies <10% error in predicted value of VIX Index corresponding to an actual VIX Index Value of 27
 
-### Key Findings about the VIX ###
+## Key Findings about the VIX ##
 1. Mean ~ 17 with Standard Deviation - ~7
 2. Highest recorded value - ~82 (March 2020 - peak of market meltdown in response to Covid19 lockdown)
 3. End of Q1 & Q2 seen most volatility - End of a critical Q2 is upon us!!!
 4. Elections (We have a big one coming up) result in a spike in volatility 
 5. Relative rate of change in volatility needs to factored in building models that use short term change in VIX to predict  
 
-### Future Steps ###
+## Next Steps ##
 
 Each VIX index value represents an implied annual volatility for the S&P500. So a VIX of 16 implies an annual implied change (up or down) of 16% in the S&P
 
@@ -106,10 +108,7 @@ To conclude:
 “My interest is in the future…I am going to spend the rest of my life there”
 – C.F. Kettering
 
-### Links to Presentation & Academic Literature 
-Presentation - https://docs.google.com/presentation/d/1ZFODWgJR_lD_ECELpOK0WLRsaTyFbnwPVT3cFBHadls/edit?usp=sharing
-
-Articles Reviewed  
+### Articles Reviewed  
 1. General Overview 
 - https://www.spglobal.com/spdji/en/education-a-practitioners-guide-to-reading-vix.pdf
 - https://www.investopedia.com/ask/answers/010915/volatility-good-thing-or-bad-thing-investors-point-view-and-why.asp
